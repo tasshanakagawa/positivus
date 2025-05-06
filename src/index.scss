@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+:root {
+  --color-dark: #191A23;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+}
