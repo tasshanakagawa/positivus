@@ -1,22 +1,25 @@
 @import 'tailwindcss';
 
 :root {
-  // Typography
-  --text-base: "Space Grotesk", sans-serif;
-  --text-headings: "Space Grotesk", sans-serif;
+  /* Spacing */
+  --spacing: 10px;
 
-  // Colors - Base
+  /* Typography */
+  --font-base: "Space Grotesk", sans-serif;
+  --font-headings: "Space Grotesk", sans-serif;
+
+  /* Colors - Base */
   --color-white: #FFFFFF;
   --color-black: #000000;
 
-  // Colors - UI Palette
+  /* Colors - UI Palette */
   --color-primary: #B9FF66;
   --color-grey: #F3F3F3;
   --color-dark: #191A23;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--text-headings);
+  font-family: var(--font-headings);
   font-weight: 500;
   font-style: normal;
 }
@@ -38,7 +41,7 @@ h4 {
 }
 
 p {
-  font-family: var(--text-base);
+  font-family: var(--font-base);
   font-weight: 400;
 }
 
