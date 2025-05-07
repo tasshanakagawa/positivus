@@ -1,11 +1,11 @@
-.container {
+/* .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 100px;
-}
+} */
 
-.heroBanner__content {
+.hero-banner__content {
   display: flex;
   flex-direction: column;
   gap: 32px;
