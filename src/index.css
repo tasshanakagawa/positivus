@@ -2,7 +2,7 @@
 
 :root {
   /* Spacing */
-  --spacing: 10px;
+  --spacing: 1px;
 
   /* Typography */
   --font-base: "Space Grotesk", sans-serif;
@@ -25,32 +25,57 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 43px;
+
+  @media (min-width: 1280px) {
+    font-size: 60px;
+  }
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 36px;
+
+  @media (min-width: 1280px) {
+    font-size: 40px;
+  }
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 26px;
+
+  @media (min-width: 1280px) {
+    font-size: 30px;
+  }
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 18px;
+
+  @media (min-width: 1280px) {
+    font-size: 20px;
+  }
 }
 
 p {
   font-family: var(--font-base);
+  font-size: 18px;
   font-weight: 400;
+
+  @media (min-width: 1280px) {
+    font-size: 16px;
+  }
 }
 
 .container {
   max-width: 1440px;
-  padding: 0 50px;
+  padding: 0 20px;
   margin: auto;
 
+  @media (min-width: 768px) {
+    padding: 0 48px;
+  }
+
   @media (min-width: 1280px) {
-    padding: 0 100px;
+    padding: 0 96px;
   }
 }
