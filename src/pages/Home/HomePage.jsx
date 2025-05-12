@@ -2,7 +2,7 @@ import Button from '../../components/Button/Button.jsx'
 import SectionHeader from '../../components/SectionHeader/SectionHeader.jsx'
 import './HomePage.css'
 
-function HomePage() {
+const HomePage = () => {
   return (
     <>
       <div className="hero-banner py-24">

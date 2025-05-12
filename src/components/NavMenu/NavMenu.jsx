@@ -1,7 +1,7 @@
 import Button from '../Button/Button';
 import './NavMenu.css';
 
-function NavMenu() {
+const NavMenu = () => {
   return(
     <div class="nav-menu flex items-center justify-between p-24 xl:px-96 xl:py-64 m-auto">
       <div className="nav-menu__logo">
